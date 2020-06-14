@@ -20,4 +20,128 @@ body {
 .attribution a {
   color: #3e52a3;
 }
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  height: 100vh;
+}
+
+.main_text-section {
+  width: 60%;
+  background: transparent linear-gradient(221deg, #FFF1F1 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.main_text-section_logo {
+  margin-top: 60px;
+  margin-left: 150px;
+}
+
+.main_text-section_titles {
+  text-transform: uppercase;
+  margin-left: 150px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.main_text-section_titles--1 {
+  font-weight: 300;
+  padding: 0px;
+  font-size: 50px;
+  line-height: 20px;
+  color: #ce9797;
+  letter-spacing: 15px;
+}
+
+.main_text-section_titles--2 {
+  font-weight: 600;
+  padding: 0px;
+  line-height: 30px;
+  color: #413a3a;
+  font-weight: 600;
+  font-size: 50px;
+  letter-spacing: 15px;
+}
+
+.main_text-section_paragraph {
+  margin-left: 150px;
+  width: 444px;
+  height: 84px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #ce9797;
+  line-height: 30px;
+  font-size: "16px";
+  font-weight: 600;
+}
+
+.main_text-section_form {
+  margin-top: 50px;
+  margin-left: 148px;
+}
+
+.main_text-section_form--input {
+  width: 445px;
+  height: 56px;
+  border: 1px solid #ce9797;
+  border-radius: 28px;
+  opacity: 0.5;
+  position: relative;
+}
+
+.main_text-section_form--button {
+  width: 100px;
+  height: 56px;
+  background: transparent linear-gradient(119deg, #F8BFBF 0%, #EE8B8B 100%) 0% 0% no-repeat padding-box;
+  border-radius: 28px;
+  border: 1px solid transparent;
+  position: absolute;
+  left: 500px;
+}
+
+.main_hero-section {
+  height: 100vh;
+  width: 40%;
+}
+
+.main_hero-section--img {
+  width: 100%;
+}
+
+::-webkit-input-placeholder {
+  color: #ce9797;
+  font-size: "16px";
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  padding-left: 25px;
+}
+
+:-ms-input-placeholder {
+  color: #ce9797;
+  font-size: "16px";
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  padding-left: 25px;
+}
+
+::-ms-input-placeholder {
+  color: #ce9797;
+  font-size: "16px";
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  padding-left: 25px;
+}
+
+::placeholder {
+  color: #ce9797;
+  font-size: "16px";
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  padding-left: 25px;
+}
 /*# sourceMappingURL=style.css.map */
