@@ -1,0 +1,24 @@
+/*importing partial files*/
+@import "variables";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font-size: $FontSize;
+  font-family: $FontFamily;
+}
+
+//Footer styling
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

@@ -1,0 +1,23 @@
+/*importing partial files*/
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font-size: "16px";
+  font-family: "'Josefin Sans', sans-serif;";
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=style.css.map */
