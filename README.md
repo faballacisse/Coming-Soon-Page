@@ -29,3 +29,4 @@ You will find all the required assets in the `/images` folder. The assets are al
 There is also a `style-guide.md` file, which contains the information you'll need, such as color palette and fonts.
 
 ## Deploying my project 🚀
+https://fervent-shaw-b66fa4.netlify.app/
