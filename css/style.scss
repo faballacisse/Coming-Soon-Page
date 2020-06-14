@@ -84,6 +84,14 @@ body {
     &_form {
       margin-top: 50px;
       margin-left: 148px;
+      border-color: transparent;
+
+      &--img {
+        position: absolute;
+        left: 450px;
+        bottom: 150px;
+        display: none;
+      }
 
       &--input {
         width: 445px;
@@ -92,6 +100,12 @@ body {
         border-radius: 28px;
         opacity: 0.5;
         position: relative;
+        color: $UnsaturateRed;
+        font-size: $FontSize;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 600;
+        padding-left: 25px;
+        outline: none;
       }
 
       &--button {
@@ -102,6 +116,19 @@ body {
         border: 1px solid transparent;
         position: absolute;
         left: 500px;
+        outline: none;
+      }
+
+      &--error {
+        display: block;
+        padding-top: 15px;
+        color: #F96464;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        padding-left: 40px;
+        padding-top: 20px;
+        display: none;
       }
     }
   }
@@ -122,5 +149,5 @@ body {
   font-size: $FontSize;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 600;
-  padding-left: 25px;
+  padding-left: 15px;
 }
