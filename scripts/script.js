@@ -8,18 +8,15 @@ const errorIcon = document.querySelector('.main_text-section_form--img');
 
 //Validating the form 
 
-button.addEventListener('click', () => {
-    event.preventDefault();
+button.addEventListener('click', (e) => {
     let email = input.value;
     let isValid = validateEmail(email);
 
     if (!isValid) {
+        e.preventDefault();
         input.style.border = '2px solid #F96464';
         errorMessage.style.display = 'block';
         errorIcon.style.display = 'initial';
-
-    } else {
-        ''
 
     }
 });
